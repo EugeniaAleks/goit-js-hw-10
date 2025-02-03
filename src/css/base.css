@@ -30,3 +30,30 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  gap: 65px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color: #6c8cff;
+}
+
+.header a:hover {
+  color: #4e75ff;
+}
