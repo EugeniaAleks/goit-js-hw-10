@@ -102,3 +102,42 @@ a {
 .label {
   text-transform: uppercase;
 }
+
+/* ================================= */
+
+.form {
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin: 100px auto;
+  font-size: 18px;
+
+  font-family: Roboto, sans-serif;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form > label > input {
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid rgb(154, 154, 154);
+}
+
+fieldset {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form button {
+  padding: 5px 15px;
+  border-radius: 4px;
+  border: 2px solid rgb(154, 154, 154);
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(48, 48, 48);
+}
